@@ -18,5 +18,5 @@ COPY . .
 RUN npm run build
 
 # Run the app
-CMD [ "node", "index.js" ]
+CMD [ "npm", "start" ] CMD [ "node", "index.js" ]
 
